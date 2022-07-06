@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Common Css */
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.w6{
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+.w4{
+    max-width: 40%;
+    flex: 0 0 40%;
+}
+.w2{
+    max-width: 10%;
+    flex: 0 0 10%;
+}
+.row{
+    display: flex;
+}
+
+/* header Section */
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, #1a1515,#00000070,#00000073,#00000008),url(img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-section{
+    max-width: 70%;
+    flex: 0 0 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.content-section .title h1{
+    font-size: 50px;
+    
+    color: #fff;
+    margin-bottom: 15px;
+}
+.short-dess p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+    
+}
+
+.short-dess{
+    margin-bottom: 40px;
+}
+.btn a{
+    color: #fff;
+    background: orangered;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+/* donate Section */
+.donate{
+    max-width: 70%;
+    flex: 0 0 70%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.donate-title-section h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.donate-section-dess p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.price-btn{
+    outline: none;
+    border: 1px solid transparent;
+    padding: 35px;
+    margin: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000c4;
+}
+.price-btn:nth-child(2){
+    border: 2px solid orangered;
+    color: orangered;
+    background: #ff470026;
+    border-radius: 4px;
+}
+.donate-input-section{
+    margin-top: 50px;
+}
+.donate-input-section form input.inBox{
+    width: 100%;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid silver;
+    background-color: none;
+    outline: none;
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+.donate-input-section form input.btn{
+    padding: 15px 30px;
+    background-color: orangered;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+}
+.plan-section{
+    margin-top: 100px;
+}
+.plan{
+    max-width: 70%;
+    flex: 0 0 70%;
+    margin: auto;
+    text-align: center; 
+}
+.plan-title h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.plan-short-dess p{
+    font-size: 20px;
+}
+/* Plans Section */
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.item{
+    max-width: 31%;
+    flex: 0 0 31%;
+    margin: 10px;
+    border-radius: 7px;
+}
+.item:nth-child(1){
+    background-color: #edf5f6;
+}
+.item:nth-child(2){
+    background-color: #ffeeee;
+}
+.item:nth-child(3){
+    background-color: #fff4d6;
+}
+.item-inner{
+    padding: 50px 25px;
+}
+.item-title h3{
+    font-size: 25px;
+    padding: 10px 0px;
+    color: #000000c9;
+    font-weight: 700;
+}
+.item-dess p{
+    font-size: 16px;
+}
+/* Story Section */
+.story{
+    padding-top: 100px;
+}
+.story-title h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-right: 143px;
+}
+.story-dess p{
+    padding: 0px 51px 27px 0px;
+    font-size: 20px;
+}
+.story-btn{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.story-btn a{
+    padding: 15px 30px;
+    background-color: orangered;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.image-section{
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.image-section img.img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.first{
+    padding-right: 20px;
+}
+/* Subscribe Section */
+.subscribe_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-inner{
+    margin: auto;
+    text-align: center;
+}
+.section-title h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.section-dess p{
+    font-size: 20px;
+}
+.subscribe_box{
+    background-color: #fff4d6;
+    padding: 50px;
+    margin-top: 30px;    
+}
+.subscribe_box form{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.subscribe_box form input{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+    background: #d9d9d9;
+    font-size: 17px;
+}
+.sub_btn{
+    width: 30% !important;
+    position: absolute;
+    right: 0;
+    background: #ff5959 !important;
+    color: white;
+    border-radius: 0px 10px 10px 0px !important;
+}
+.footer-section{
+    background: #000;
+    color:#ff5959;
+    padding: 65px;
+    text-align: center;
+}
+.title h2{
+    font-size: 25px;
+}
+.footer-section-dess p{
+    font-size: 18px;
+    padding-top: 10px;
+    color: rgb(123, 117, 117) !important;
+}

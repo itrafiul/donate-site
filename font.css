@@ -1,0 +1,15 @@
+:is(.content-section .title h1,.short-dess p,.btn a,.donate-title-section h2,.donate-section-dess p,
+.donate-input-section form input.inBox,
+.plan-title h3,
+.plan-short-dess p,
+.item-title h3,
+.item-dess p,
+.story-title h2,
+.story-dess p,
+.section-title h2,.section-dess p
+){
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
